@@ -1,0 +1,41 @@
+---
+import { getCollection, render } from 'astro:content';
+export async function getStaticPaths() {
+  const enPosts = await getCollection('en');
+  const zhPosts = await getCollection('zh');
+  return [
+    ...enPosts.map(p => ({ params: { tier: p.data.tier, slug: p.slug, locale: 'en' }, props: { entry: p } })),
+    ...zhPosts.map(p => ({ params: { tier: p.data.tier, slug: p.slug, locale: 'zh' }, props: { entry: p } })),
+  ];
+}
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+const locale = Astro.params.locale as string;
+const tierLabels: Record<string, { en: string; zh: string }> = {
+  'daily-pulse': { en: '🚀 Daily Pulse', zh: '🚀 每日脉搏' },
+  'hands-on': { en: '🔧 Hands-On Lab', zh: '🔧 动手实验室' },
+  'deep-signal': { en: '📊 Deep Signal', zh: '📊 深度信号' },
+};
+const tierColors: Record<string, string> = {
+  'daily-pulse': 'bg-cyan-900/50 text-cyan-400',
+  'hands-on': 'bg-amber-900/50 text-amber-400',
+  'deep-signal': 'bg-purple-900/50 text-purple-400',
+};
+---
+
+<BaseLayout title={entry.data.title} locale={locale}>
+  <article class="max-w-3xl mx-auto px-4 py-12">
+    <div class="mb-8">
+      <a href={`/${locale}/${entry.data.tier}/`} class={`text-xs font-medium uppercase px-2 py-1 rounded ${tierColors[entry.data.tier]}`}>{tierLabels[entry.data.tier]?.[locale] || entry.data.tier}</a>
+      <h1 class="text-4xl font-bold text-white mt-4 mb-2">{entry.data.title}</h1>
+      <div class="flex gap-4 text-sm text-zinc-500">
+        <time>{new Date(entry.data.date).toLocaleDateString(locale === 'zh' ? 'zh-CN' : 'en-US', { year:'numeric', month:'long', day:'numeric' })}</time>
+        <span>{entry.data.author}</span>
+      </div>
+    </div>
+    <div class="prose prose-invert max-w-none">
+      <Content />
+    </div>
+  </article>
+</BaseLayout>

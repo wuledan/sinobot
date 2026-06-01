@@ -1,0 +1,46 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="首页" description="解码中国硬件与机器人 — 每日脉搏、动手实验室、深度信号。" locale="zh">
+  <section class="relative overflow-hidden border-b border-zinc-800">
+    <div class="max-w-6xl mx-auto px-4 py-24 md:py-32">
+      <div class="text-center max-w-3xl mx-auto">
+        <h1 class="text-5xl md:text-7xl font-extrabold text-white leading-tight mb-6">
+          <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">解码中国</span><br/>硬件与机器人
+        </h1>
+        <p class="text-xl text-zinc-400 mb-10 max-w-2xl mx-auto leading-relaxed">
+          全球最活跃硬件生态系统的每日脉搏、动手实验与深度信号。服务于创造者、工程师与投资人。
+        </p>
+        <div class="flex gap-4 justify-center">
+          <a href="/zh/daily-pulse/" class="px-6 py-3 bg-zinc-800 hover:bg-zinc-700 border border-zinc-700 rounded-lg text-white font-medium transition-colors">🚀 每日脉搏</a>
+          <a href="/zh/hands-on/" class="px-6 py-3 bg-zinc-800 hover:bg-zinc-700 border border-zinc-700 rounded-lg text-white font-medium transition-colors">🔧 动手实验室</a>
+          <a href="/zh/deep-signal/" class="px-6 py-3 bg-zinc-800 hover:bg-zinc-700 border border-zinc-700 rounded-lg text-white font-medium transition-colors">📊 深度信号</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-6xl mx-auto px-4 py-16">
+    <div class="grid gap-8 md:grid-cols-3 mb-16">
+      <a href="/zh/daily-pulse/" class="group p-6 bg-zinc-900 rounded-xl border border-zinc-800 hover:border-cyan-700 transition-all hover:translate-y-[-2px]">
+        <div class="text-3xl mb-3">🚀</div>
+        <h3 class="text-lg font-bold text-white group-hover:text-cyan-400 transition-colors">每日脉搏</h3>
+        <p class="text-sm text-zinc-400 mt-2">每天 5-8 条产业快讯 + 1 个热点视频解读。5 分钟掌握中国硬件动态。</p>
+      </a>
+      <a href="/zh/hands-on/" class="group p-6 bg-zinc-900 rounded-xl border border-zinc-800 hover:border-amber-700 transition-all hover:translate-y-[-2px]">
+        <div class="text-3xl mb-3">🔧</div>
+        <h3 class="text-lg font-bold text-white group-hover:text-amber-400 transition-colors">动手实验室</h3>
+        <p class="text-sm text-zinc-400 mt-2">拆解测评、DIY 教程、开源复刻。为动手创造的极客和工程师而生。</p>
+      </a>
+      <a href="/zh/deep-signal/" class="group p-6 bg-zinc-900 rounded-xl border border-zinc-800 hover:border-purple-700 transition-all hover:translate-y-[-2px]">
+        <div class="text-3xl mb-3">📊</div>
+        <h3 class="text-lg font-bold text-white group-hover:text-purple-400 transition-colors">深度信号</h3>
+        <p class="text-sm text-zinc-400 mt-2">产业分析、技术深潜、创始人访谈。为需要深度洞察的工程师和投资人准备。</p>
+      </a>
+    </div>
+
+    <h2 class="text-2xl font-bold text-white mb-8 text-center">最新内容</h2>
+    <p class="text-zinc-500 text-center py-12">内容管线启动中，首批文章即将上线。</p>
+  </section>
+</BaseLayout>

@@ -1,0 +1,59 @@
+---
+import '../styles/global.css';
+export interface Props {
+  title: string;
+  description?: string;
+  locale?: 'en' | 'zh';
+  ogImage?: string;
+}
+const { title, description = 'Decoding China\'s Hardware & Robotics', locale = 'en', ogImage = '/og-default.png' } = Astro.props;
+const t = {
+  nav: { home: locale === 'zh' ? '首页' : 'Home', about: locale === 'zh' ? '关于' : 'About', search: locale === 'zh' ? '搜索' : 'Search' },
+  switchLang: locale === 'zh' ? 'EN' : '中文',
+  footer: { rights: locale === 'zh' ? 'SinoBot — 解码中国硬件与机器人' : 'SinoBot — Decoding China\'s Hardware & Robotics' },
+};
+const switchHref = locale === 'zh' ? '/en' : '/zh';
+---
+
+<!DOCTYPE html>
+<html lang={locale}>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title} | SinoBot</title>
+  <meta name="description" content={description} />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta property="og:title" content={`${title} | SinoBot`} />
+  <meta property="og:description" content={description} />
+  <meta property="og:url" content={Astro.url.href} />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content={ogImage} />
+  <meta name="twitter:card" content="summary_large_image" />
+</head>
+<body class="bg-zinc-950 text-white min-h-screen flex flex-col">
+  <header class="sticky top-0 z-50 border-b border-zinc-800 bg-zinc-950/95 backdrop-blur-md">
+    <nav class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+      <a href={`/${locale}/`} class="flex items-center gap-2 text-xl font-bold text-white hover:text-zinc-300 transition-colors">
+        <span class="text-2xl">🤖</span>
+        <span>SinoBot</span>
+      </a>
+      <div class="flex items-center gap-6">
+        <a href={`/${locale}/`} class="text-sm font-medium text-zinc-400 hover:text-white transition-colors">{t.nav.home}</a>
+        <a href={`/${locale}/daily-pulse/`} class="text-sm font-medium text-zinc-400 hover:text-white transition-colors">Daily Pulse</a>
+        <a href={`/${locale}/hands-on/`} class="text-sm font-medium text-zinc-400 hover:text-white transition-colors">Hands-On</a>
+        <a href={`/${locale}/deep-signal/`} class="text-sm font-medium text-zinc-400 hover:text-white transition-colors">Deep Signal</a>
+        <a href={`/${locale}/about/`} class="text-sm font-medium text-zinc-400 hover:text-white transition-colors">{t.nav.about}</a>
+        <a href={switchHref} class="px-3 py-1.5 text-xs font-medium rounded-md border border-zinc-700 text-zinc-400 hover:text-white hover:border-zinc-500 transition-colors">{t.switchLang}</a>
+      </div>
+    </nav>
+  </header>
+  <main class="flex-1">
+    <slot />
+  </main>
+  <footer class="border-t border-zinc-800 bg-zinc-950 py-10 mt-16">
+    <div class="max-w-6xl mx-auto px-4">
+      <p class="text-sm text-zinc-500 text-center">{t.footer.rights}</p>
+    </div>
+  </footer>
+</body>
+</html>

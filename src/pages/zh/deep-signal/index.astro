@@ -1,0 +1,24 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+const posts = await getCollection('zh', ({ data }) => data.tier === 'deep-signal');
+posts.sort((a, b) => +b.data.date - +a.data.date);
+---
+
+<BaseLayout title="深度信号" locale="zh">
+  <div class="max-w-4xl mx-auto px-4 py-12">
+    <h1 class="text-3xl font-bold text-white mb-2">📊 深度信号</h1>
+    <p class="text-zinc-400 mb-8">产业分析、技术深潜、创始人访谈。为需要深度洞察的工程师和投资人准备。</p>
+    {posts.length === 0 ? <p class="text-zinc-500 py-12">首篇即将上线。</p> : (
+      <div class="grid gap-6 md:grid-cols-2">
+        {posts.map(p => (
+          <a href={`/zh/deep-signal/${p.slug}`} class="block p-5 bg-zinc-900 rounded-xl border border-zinc-800 hover:border-purple-700 transition-all">
+            <h3 class="font-semibold text-white">{p.data.title}</h3>
+            <p class="text-sm text-zinc-400 mt-1">{p.data.excerpt}</p>
+            <time class="text-xs text-zinc-600 mt-2 block">{new Date(p.data.date).toLocaleDateString('zh-CN')}</time>
+          </a>
+        ))}
+      </div>
+    )}
+  </div>
+</BaseLayout>
