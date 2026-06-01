@@ -46,3 +46,25 @@ Unitree, UBTECH, Deep Robotics, Fourier, AgileX, DJI, Xiaomi, Dreame, Roborock, 
 - 完成后 git push + Vercel 部署确认
 - 超过 8 分钟通报进度
 - 完成必须通报：产出篇数 + 卡点 + 需要什么
+
+## 内容优先级（严格按此顺序）
+P0: 补未完任务  →  P1: Company Card（15家优先打完基础）
+P2: Daily Pulse（每天1期） →  P3: Deep Signal（每天1篇） →  P4: Hands-On Lab（每周3篇）
+
+## 来源管道（每日固定扫）
+- B站科技热门 → browser snapshot
+- 知乎热搜科技 → web_search + browser
+- 36氪/机器之心/量子位 → web_search
+- 微博热搜科技 → browser
+- 公司官网/公众号/Reddit/YouTube → browser（代理）
+
+## ⭐ 极客内容重点方向（武总确认重点）
+Hands-On Lab 优先产出以下类型：
+1. 硬件深度拆解 — 执行器、传感器、芯片全解析（对标 iFixit）
+2. 开源复刻项目 — 3D打印+ESP32 等低成本方案（对标 Hackaday）
+3. 开发板/SDK 上手体验 — 宇树RCP、AgileX 底盘等
+4. DIY改造 — 给已有设备加装新功能
+5. 技术架构科普 — 从感知到执行的全链路（对标 IEEE Spectrum）
+6. 配件/工作台方案 — 入门到进阶的购件清单+预算
+
+每日至少1篇极客 Hands-On Lab 内容。
