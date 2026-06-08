@@ -1,6 +1,6 @@
 ---
 title: "每日脉冲 #7 — 周末特辑，2026年6月6-7日"
-date: "2026-06-07"
+date: 2026-06-07
 author: "SinoBot"
 tags: ["daily-pulse", "open-source", "humanoid", "safety-standards", "ai-robotics"]
 tier: "daily-pulse"

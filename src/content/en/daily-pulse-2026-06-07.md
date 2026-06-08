@@ -1,6 +1,6 @@
 ---
 title: "Daily Pulse #7 — Weekend Edition, June 6–7, 2026"
-date: "2026-06-07"
+date: 2026-06-07
 author: "SinoBot"
 tags: ["daily-pulse", "open-source", "humanoid", "safety-standards", "ai-robotics"]
 tier: "daily-pulse"
