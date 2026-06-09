@@ -18,7 +18,7 @@ excerpt: "OpenCV 5 releases with a graph-based DNN engine, 80%+ ONNX coverage, a
 
 ---
 
-![OpenCV 5 release cover](https://opencv.org/wp-content/uploads/2026/06/opencv-5.png)_Source: opencv.org_
+![OpenCV 5 release cover](/images/opencv-5.png)_Source: opencv.org_
 
 ### 1. 🏆 OpenCV 5 Is Here: A Graph-Based DNN Engine Rewrites Computer Vision's Infrastructure Layer
 
@@ -69,7 +69,7 @@ OpenCV 5 can **run large language models and vision-language models directly wit
 
 ---
 
-![Claude Fable 5](https://www.anthropic.com/images/logos/claude-logo.svg)_Source: Anthropic_
+![Claude Fable 5](/images/claude-fable-5.png)_Source: Anthropic_
 
 ### 2. Anthropic Drops Claude Fable 5: Mythos-Level Model Goes Public
 

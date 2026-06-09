@@ -18,7 +18,7 @@ excerpt: "OpenCV 5 正式发布——最大版本升级，全新图神经网络�
 
 ---
 
-![OpenCV 5 发布封面](https://opencv.org/wp-content/uploads/2026/06/opencv-5.png)_来源: opencv.org_
+![OpenCV 5 发布封面](/images/opencv-5.png)_来源: opencv.org_
 
 ### 1. 🏆 OpenCV 5 正式发布：一个图神经网络引擎，改写计算机视觉的基础设施层
 
@@ -69,7 +69,7 @@ OpenCV 5 可**直接在库内运行大语言模型和视觉语言模型**。内�
 
 ---
 
-![Claude Fable 5](https://www.anthropic.com/images/logos/claude-logo.svg)_来源: Anthropic_
+![Claude Fable 5](/images/claude-fable-5.png)_来源: Anthropic_
 
 ### 2. Anthropic 推出 Claude Fable 5：Mythos 级模型首次开放通用访问
 
