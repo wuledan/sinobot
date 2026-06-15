@@ -1,5 +1,5 @@
 ---
-title: "Daily Pulse | 2026年6月16日 | MIT用"手势"替代遥操作训练机器人、Agile Robots携DeepMind亮相RTJ、开源仿人机械臂破2600星"
+title: 'Daily Pulse | 2026年6月16日 | MIT用"手势"替代遥操作训练机器人、Agile Robots携DeepMind亮相RTJ、开源仿人机械臂破2600星'
 date: 2026-06-16
 author: "SinoBot Editorial"
 tags: [daily-pulse, mit, robot-training, gesture-control, agile-robots, deepmind, open-source, humanoid-arm, openarm, autoflight, evtol, unitree, xr-teleoperation, robotics-framework]
