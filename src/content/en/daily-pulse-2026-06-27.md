@@ -1,11 +1,11 @@
 ---
-title: "Daily Pulse | June 27 Weekend Edition | OpenAI Unveils GPT-5.6 Sol Ushering New AI Era; World's First All-Robot Hotel Set for Shenzhen 2027; \$500K on Humanoid Robots in School — Worth It?"
+title: "Daily Pulse | June 27 Weekend Edition | OpenAI Unveils GPT-5.6 Sol Ushering New AI Era; World's First All-Robot Hotel Set for Shenzhen 2027; $500K on Humanoid Robots in School — Worth It?"
 date: 2026-06-27
 author: "SinoBot Editorial"
 tags: [daily-pulse, openai, gpt-5-6-sol, robot-hotel, shenzhen, humanoid-robots, education, robotaxi, teleoperation, ai-safety, weekend-edition]
 tier: "daily-pulse"
 cover: "/images/daily-pulse-2026-06-27-cover.jpg"
-excerpt: "OpenAI releases GPT-5.6 Sol series — flagship model with layered safety; World's first fully robotic hotel to open in Shenzhen 2027; A charter school's real return on \$500K humanoid investment; 500+ hours of in-home teleop dataset for humanoid training; US regulators move to eliminate robotaxi brake pedals."
+excerpt: "OpenAI releases GPT-5.6 Sol series — flagship model with layered safety; World's first fully robotic hotel to open in Shenzhen 2027; A charter school's real return on $500K humanoid investment; 500+ hours of in-home teleop dataset for humanoid training; US regulators move to eliminate robotaxi brake pedals."
 ---
 
 > 🎯 **Weekend Briefing (June 26-27)**

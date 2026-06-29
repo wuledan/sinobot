@@ -1,11 +1,11 @@
 ---
-title: "Daily Pulse | June 29 Monday Edition | General Intuition Raises \$320M to Train Robots from Video Games; Ford Rehires 'Gray Beard' Engineers After AI Falls Short; Asian AI Labs Rise on Anthropic Export Ban; White House Pressures OpenAI on GPT-5.6 Release; New TOP500 Champion at ISC'26"
+title: "Daily Pulse | June 29 Monday Edition | General Intuition Raises $320M to Train Robots from Video Games; Ford Rehires 'Gray Beard' Engineers After AI Falls Short; Asian AI Labs Rise on Anthropic Export Ban; White House Pressures OpenAI on GPT-5.6 Release; New TOP500 Champion at ISC'26"
 date: 2026-06-29
 author: "SinoBot Editorial"
 tags: [daily-pulse, general-intuition, ai-robots, ford, gray-beard-engineers, anthropic, export-ban, asian-ai, openai, gpt-5-6-sol, top500, supercomputer, isc-2026]
 tier: "daily-pulse"
 cover: "/images/daily-pulse-2026-06-29-cover.jpg"
-excerpt: "General Intuition raises \$320M to train a single AI model on billions of hours of gameplay data — powering both game agents and physical robots; Ford admits AI failed to deliver quality, rehires 350 veteran engineers; Asian AI labs launch Mythos-class models as Anthropic's export ban persists; White House asks OpenAI to restrict GPT-5.6 Sol rollout; TOP500 gets a new #1 at ISC'26."
+excerpt: "General Intuition raises $320M to train a single AI model on billions of hours of gameplay data — powering both game agents and physical robots; Ford admits AI failed to deliver quality, rehires 350 veteran engineers; Asian AI labs launch Mythos-class models as Anthropic's export ban persists; White House asks OpenAI to restrict GPT-5.6 Sol rollout; TOP500 gets a new #1 at ISC'26."
 ---
 
 > 🎯 **Monday Briefing (June 29)**

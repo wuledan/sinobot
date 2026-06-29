@@ -1,5 +1,5 @@
 ---
-title: "Daily Pulse | 2026年6月29日周一版 | General Intuition用电子游戏训练机器人获$3.2亿融资；福特重聘"白发工程师"纠正AI错误；亚洲AI公司借Anthropic出口禁令崛起；白宫要求OpenAI放缓GPT-5.6；TOP500超算新王登基"
+title: "Daily Pulse | 2026年6月29日周一版 | General Intuition用电子游戏训练机器人获$3.2亿融资；福特重聘「白发工程师」纠正AI错误；亚洲AI公司借Anthropic出口禁令崛起；白宫要求OpenAI放缓GPT-5.6；TOP500超算新王登基"
 date: 2026-06-29
 author: "SinoBot Editorial"
 tags: [daily-pulse, general-intuition, ai-robots, ford, gray-beard-engineers, anthropic, export-ban, asian-ai, openai, gpt-5-6-sol, top500, supercomputer, isc-2026]
