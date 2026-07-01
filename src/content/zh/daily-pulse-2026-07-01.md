@@ -1,11 +1,11 @@
 ---
-title: "Daily Pulse | 2026年7月1日周三版 | 韩国宣布$1万亿"物理AI"国策；现代汽车工会因Atlas机器人部署表决罢工；Unitree G1上街举QR码"讨电费"走红；BBC报道送货机器人社区反弹；Agility Robotics拟$25亿SPAC上市；Claude Sonnet 5发布"
+title: 'Daily Pulse | 2026年7月1日周三版 | 韩国宣布$1万亿"物理AI"国策；现代汽车工会因Atlas机器人部署表决罢工；Unitree G1上街举QR码"讨电费"走红；BBC报道送货机器人社区反弹；Agility Robotics拟$25亿SPAC上市；Claude Sonnet 5发布'
 date: 2026-07-01
 author: "SinoBot Editorial"
 tags: [daily-pulse, south-korea, physical-ai, humanoid-robot, hyundai, boston-dynamics, atlas, labor-union, strike, unitree, g1, delivery-robot, backlash, agility-robotics, spac, claude-sonnet-5]
 tier: "daily-pulse"
 cover: "/images/daily-pulse-2026-07-01-cover.jpg"
-excerpt: "韩国总统李在明宣布$1万亿国家战略，将半导体、物理AI、AI数据中心列为"三大轴心"；现代汽车工会投票授权罢工，抗议Atlas人形机器人部署；Unitree G1上街举QR码讨电费成营销奇观；BBC报道全球送货机器人社区抵制潮；Agility Robotics拟$25亿SPAC上市；Anthropic发布Claude Sonnet 5及Claude Science。"
+excerpt: '韩国总统李在明宣布$1万亿国家战略，将半导体、物理AI、AI数据中心列为"三大轴心"；现代汽车工会投票授权罢工，抗议Atlas人形机器人部署；Unitree G1上街举QR码讨电费成营销奇观；BBC报道全球送货机器人社区抵制潮；Agility Robotics拟$25亿SPAC上市；Anthropic发布Claude Sonnet 5及Claude Science。'
 ---
 
 > 🎯 **周三速览（7月1日）**
