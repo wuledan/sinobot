@@ -5,7 +5,7 @@ author: "SinoBot Editorial"
 tags: [daily-pulse, dji, fcc, drone-ban, openai, safety, johannes-heidecke, meta, iris, ai-chip, pc-shipment, ramageddon, greg-brockman, ipo]
 tier: "daily-pulse"
 cover: "/images/daily-pulse-2026-07-12-cover.jpg"
-excerpt: "FCC对DJI发起重磅打击，指控其利用多家空壳公司规避美国无人机禁令。OpenAI安全负责人Johannes Heidecke离职，领导层持续动荡。Meta计划9月量产代号"Iris"的自研AI芯片，减少对Nvidia依赖。PC出货量因AI军备竞赛驱动的内存短缺两年来首次下滑。OpenAI权力进一步向Greg Brockman集中，IPO预期升温。"
+excerpt: "FCC对DJI发起重磅打击，指控其利用多家空壳公司规避美国无人机禁令。OpenAI安全负责人Johannes Heidecke离职，领导层持续动荡。Meta计划9月量产代号「Iris」的自研AI芯片，减少对Nvidia依赖。PC出货量因AI军备竞赛驱动的内存短缺两年来首次下滑。OpenAI权力进一步向Greg Brockman集中，IPO预期升温。"
 ---
 
 > 🎯 **7月12日周日速览**
