@@ -1,5 +1,5 @@
 ---
-title: "Daily Pulse | 7月12日周日版 | FCC打击DJI无人机利用空壳公司规避禁令；OpenAI安全负责人离职；Meta自制AI芯片"Iris"9月量产；PC出货量因AI内存短缺两年来首降"
+title: "Daily Pulse | 7月12日周日版 | FCC打击DJI无人机利用空壳公司规避禁令；OpenAI安全负责人离职；Meta自制AI芯片「Iris」9月量产；PC出货量因AI内存短缺两年来首降"
 date: 2026-07-12
 author: "SinoBot Editorial"
 tags: [daily-pulse, dji, fcc, drone-ban, openai, safety, johannes-heidecke, meta, iris, ai-chip, pc-shipment, ramageddon, greg-brockman, ipo]
