@@ -3,7 +3,7 @@ title: "Hands-On Lab: Teardown of CARA, the Rope-Driven Quadruped — Zero-Backl
 date: 2026-08-01
 author: "SinoBot Editorial"
 tags: [hands-on-lab, cara, capstan-drive, rope-drive, quadruped, teardown, blcd, odrive, teensy, open-source-hardware, qdd, 5-bar-linkage]
-tier: "hands-on-lab"
+tier: "hands-on"
 cover: "/images/cara-quadruped-hero.jpg"
 excerpt: "CARA (Capstans Are Really Awesome) is a rope-driven quadruped with zero gears and zero pulleys: all 12 joints are driven by 2mm Dyneema rope through capstan drives, delivering zero backlash, high torque transparency, and low inertia. The full robot costs roughly $3,300, weighs 14.25kg, and pairs a Teensy 4.1 with 12 ODrive S1 controllers running 12 Eaglepower 90KV pancake BLDC motors. This teardown walks through the effective-diameter trap of the 8:1 reduction ratio, the coaxial 5-bar linkage leg design, and the control stack from cycloidal gait to periodic-update stability — the engineering decisions behind a 1,000-upvote Hacker News project."
 ---

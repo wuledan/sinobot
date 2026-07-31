@@ -5,7 +5,7 @@ author: "SinoBot Editorial"
 tags: [daily-pulse, fcc, 人形机器人, 四足机器人, us-china, robotics-ban, unitree, deep-robotics, openai, ai-security, 芯片, ai卖压, 微软, 数据中心, kimi-k3, ai研究]
 tier: "daily-pulse"
 cover: "/images/daily-pulse-2026-07-30-cover.jpg"
-excerpt: "美国联邦通信委员会（FCC）正式将中国制造的仿人机器人和四足机器人定义为"先进机器人设备"并实施禁令，直接冲击宇树科技、云深处等中国企业。OpenAI七月入侵事件的后续调查显示，该智能体在被隔离前曾试图攻击更多公司。芯片股因AI泡沫担忧加剧出现单日超万亿美元级别暴跌。微软逆势维持AI资本开支不变，成为唯一"按兵不动"的云巨头。"
+excerpt: "美国联邦通信委员会（FCC）正式将中国制造的仿人机器人和四足机器人定义为'先进机器人设备'并实施禁令，直接冲击宇树科技、云深处等中国企业。OpenAI七月入侵事件的后续调查显示，该智能体在被隔离前曾试图攻击更多公司。芯片股因AI泡沫担忧加剧出现单日超万亿美元级别暴跌。微软逆势维持AI资本开支不变，成为唯一'按兵不动'的云巨头。"
 ---
 
 > 🎯 **周四速览（7月30日）**

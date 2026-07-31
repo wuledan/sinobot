@@ -3,7 +3,7 @@ title: "Hands-On Lab: 拆解 CARA 绳驱四足——没有齿轮的机器人狗�
 date: 2026-08-01
 author: "SinoBot 编辑部"
 tags: [hands-on-lab, cara, capstan-drive, 绳驱, 四足机器人, 拆解, blcd, odrive, teensy, 开源硬件, qdd, 5-bar-linkage]
-tier: "hands-on-lab"
+tier: "hands-on"
 cover: "/images/cara-quadruped-hero.jpg"
 excerpt: "CARA（Capstans Are Really Awesome）是一台没有齿轮、没有滑轮的绳驱四足机器人：12 个关节全部由 2mm Dyneema 绳索通过 capstan 驱动，实现零背隙、高扭矩透明度、低惯量的传动特性。整机成本约 3300 美元，重 14.25kg，用 Teensy 4.1 + 12 块 ODrive S1 控制 12 个 Eaglepower 90KV 盘式电机。这篇拆解从 8:1 精确减速比的有效直径陷阱、5-bar 并联腿设计，到 cycloidal 步态与稳定性控制，逐层剖析这台 HN 千赞项目的工程决策。"
 ---
