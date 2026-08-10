@@ -24,7 +24,7 @@ const tierColors: Record<string, string> = {
 };
 ---
 
-<BaseLayout title={entry.data.title} locale={locale}>
+<BaseLayout title={entry.data.title} locale={locale} ogImage={entry.data.cover}>
   <article class="max-w-3xl mx-auto px-4 py-12">
     <div class="mb-8">
       <a href={`/${locale}/${entry.data.tier}/`} class={`text-xs font-medium uppercase px-2 py-1 rounded ${tierColors[entry.data.tier]}`}>{tierLabels[entry.data.tier]?.[locale] || entry.data.tier}</a>

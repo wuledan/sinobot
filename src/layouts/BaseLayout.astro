@@ -7,6 +7,7 @@ export interface Props {
   ogImage?: string;
 }
 const { title, description = 'Decoding China\'s Hardware & Robotics', locale = 'en', ogImage = '/og-default.png' } = Astro.props;
+const ogImageUrl = ogImage.startsWith('http') ? ogImage : new URL(ogImage, Astro.site ?? 'https://sinobot.vercel.app').toString();
 const t = {
   nav: { home: locale === 'zh' ? '首页' : 'Home', about: locale === 'zh' ? '关于' : 'About', search: locale === 'zh' ? '搜索' : 'Search' },
   switchLang: locale === 'zh' ? 'EN' : '中文',
@@ -27,7 +28,7 @@ const switchHref = locale === 'zh' ? '/en' : '/zh';
   <meta property="og:description" content={description} />
   <meta property="og:url" content={Astro.url.href} />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content={ogImage} />
+  <meta property="og:image" content={ogImageUrl} />
   <meta name="twitter:card" content="summary_large_image" />
 </head>
 <body class="bg-zinc-950 text-white min-h-screen flex flex-col">
